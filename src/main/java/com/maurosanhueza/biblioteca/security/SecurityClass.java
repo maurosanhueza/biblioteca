@@ -16,5 +16,7 @@ public class SecurityClass {
                 .authenticated()).httpBasic(httpBasic->{});
 
         return http.build();
+        // test
+
     }
 }
